@@ -19,7 +19,7 @@ let akckfrPtn = 0.02;
 let vudrbstjsthreh = 0;
 let wndfurrkthreh = 9.8;
 let rkthrtlgkwnd = 0;
-let dkswjsrPtn = 2.0;
+let dkswjsrPtn = 1.5;
 let vudrbsgkwnd = 0;
 let ehdrlrnehd = 1;
 let ahapsxm = 0;
@@ -138,7 +138,7 @@ function convert1() {
     vlsldjsqksrud = names[i][j+3]/2;
     ghlwjsdlthdrjfl = names[i][j+4];
     vlfdyghlwjsthreh = Math.floor(tjsthreh/ghlwjsdlthdrjfl*60*100000000000000)/100000000000000;
-    tnaudrPtks = Math.cbrt(Math.pow(rlqhsgkwnd/rkthrtlgkwnd,10))*60000000/vlfdyghlwjsthreh/60;
+    tnaudrPtks = Math.cbrt(Math.pow(rlqhsgkwnd/vudrbsgkwnd,10))*60000000/vlfdyghlwjsthreh/60;
     if(tnaudrPtks>=10000){
       break;
     }   
